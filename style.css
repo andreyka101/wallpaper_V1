@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+.grid {
+  display: grid;
+  background: url(1612225079_118-p-fioletovii-fon-windows-10-169.jpg) center / cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+.grid .hov:hover {
+  background-color: rgba(18, 115, 153, 0.568);
+  border-radius: 20px;
+  filter: blur(4px);
+}
